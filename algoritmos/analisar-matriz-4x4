@@ -1,0 +1,94 @@
+var
+   m: vetor[1..4, 1..4] de inteiro
+   l, c, op: inteiro
+inicio
+      Para l <- 1 ate 4 faca
+           Para c <- 1 ate 4 faca
+                escreva("Digite o valor da matriz [", l,", ", c,"]: ")
+                leia(m[l, c])
+           FimPara
+      FimPara
+      
+      LimpaTela
+      
+      Repita
+            Escreval()
+            Escreval("====================")
+            Escreval("OPÇÕES PARA A MATRIZ")
+            Escreval("====================")
+            Escreval("[1] MOSTRAR MATRIZ INTEIRA")
+            Escreval("[2] MOSTRAR DIAGONAL PRINCIPAL")
+            Escreval("[3] MOSTRAR TRIÂNGULO INFERIOR")
+            Escreval("[4] MOSTRAR TRIÂNGULO SUPERIOR")
+            Escreval("[5] SAIR")
+
+            Escreva("========= OPÇÃO: ")
+      leia(op)
+      
+              Escolha(op)
+                         caso 1
+                              LimpaTela
+                              Para l <- 1 ate 4 faca
+                                   Para c <- 1 ate 4 faca
+                                        escreva(m[l, c]:6)
+                                   FimPara
+                                          escreval()
+                              FimPara
+                              
+                         caso 2
+                              LimpaTela
+                              Para l <- 1 ate 4 faca
+                                   Para c <- 1 ate 4 faca
+                                        Se (l <> c) entao
+                                           escreva("    ":6)
+                                                       Senao
+                                                            Se (l = c) entao
+                                                               escreva(m[l, c]:6)
+                                                            FimSe
+                                        FimSe
+                                   FimPara
+                                          escreval()
+                              FimPara
+                              
+                         caso 3
+                              LimpaTela
+                              Para l <- 1 ate 4 faca
+                                   Para c <- 1 ate 4 faca
+                                        Se (l = c) entao
+                                           escreva("    ":6)
+                                                        Senao
+                                                             Se ((c = 1) e (l <> 1)) ou ((c = 2) e (l <> 2) e (l <> 1)) ou ((c = 3) e (l <> 3) e (l <> 2) e (l <> 1)) entao
+                                                                escreva(m[l, c])
+                                                             FimSe
+                                        FimSe
+                                   FimPara
+                                          escreval()
+                              FimPara
+                              
+                         caso 4
+                              LimpaTela
+                              Para l <- 1 ate 4 faca
+                                   Para c <- 1 ate 4 faca
+                                        Se (l = c) entao
+                                           escreva("    ":6)
+                                                        Senao
+                                                             Se ((c = 1) e (l <> 1)) ou ((c = 2) e (l <> 2) e (l <> 1)) ou ((c = 3) e (l <> 3) e (l <> 2) e (l <> 1)) entao
+                                                                escreva("    ":6)
+                                                                             Senao
+                                                                                  escreva(m[l, c]:6)
+                                                             FimSe
+                                        FimSe
+                                   FimPara
+                                          escreval()
+                              FimPara
+                              
+                         caso 5
+                              LimpaTela
+                              escreva("PROGRAMA ENCERRADO.")
+
+              FimEscolha
+      
+      Ate(op = 5)
+      
+
+fimalgoritmo
