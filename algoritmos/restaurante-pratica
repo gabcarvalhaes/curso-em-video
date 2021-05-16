@@ -1,0 +1,39 @@
+// Simulação de pedidos num restaurante e a quantidade que um grupo de pessoas (quantidade por input de dados) irá pagar pelo valor dos pedidos. Algoritmo simples para praticar
+a lógica.
+
+var
+   chopp, pizza_grande, cobertura: caractere
+   qntd_pessoas: inteiro
+   valor_chopp, valor_pizza, valor_cobertura, preco_final_por_pessoa: real
+
+inicio
+      valor_chopp <- 0
+      Escreva("Deseja tulipa de chopp? [S/N]")
+      leia(chopp)
+      Se (chopp = "S") entao
+         valor_chopp <- valor_chopp + 0.80
+      FimSe
+      
+      valor_pizza <- 0
+      Escreva("Deseja uma pizza grande? [S/N]")
+      leia(pizza_grande)
+      Se (pizza_grande = "S") entao
+         valor_pizza <- valor_pizza + 10
+      FimSe
+      
+      valor_cobertura <- 0
+      Escreva("Deseja cobertura? [S/N]")
+      leia(cobertura)
+      Se (cobertura = "S") entao
+         valor_cobertura <- valor_cobertura + 1.5
+      FimSe
+      
+      LimpaTela
+      
+      escreva("Quantas pessoas na mesa? ")
+      leia(qntd_pessoas)
+      
+      preco_final_por_pessoa <- (valor_chopp) * qntd_pessoas + valor_cobertura +valor_pizza
+      
+      escreva("Cada pessoa irá pagar R$", preco_final_por_pessoa)
+fimalgoritmo
