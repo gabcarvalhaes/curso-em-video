@@ -1,0 +1,19 @@
+// Algoritmo que calcula a velocidade média que um piloto percorreu a partir do input de dados da distâNcia e do tempo que levou.
+
+var
+   nome: caractere
+   distancia_km, tempo_horas, velocidade_media: real
+
+inicio
+      Escreva("Nome do piloto: ")
+      Leia(nome)
+      Escreva("Distância percorrida em Km: ")
+      leia(distancia_km)
+      Escreva("Tempo para percorrer a distância (em horas): ")
+      leia(tempo_horas)
+      
+      velocidade_media <- distancia_km / tempo_horas
+      
+      Escreval("A velocidade média do ", nome, " foi de ", velocidade_media, "km/h.")
+      
+fimalgoritmo
