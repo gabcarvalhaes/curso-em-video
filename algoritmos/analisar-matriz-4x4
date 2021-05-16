@@ -1,3 +1,8 @@
+// Criar uma matriz (input de dados) e, através de opções, escolher mostrar ela inteira, a diagonal principal, o triângulo superior ou inferior.
+
+
+
+
 var
    m: vetor[1..4, 1..4] de inteiro
    l, c, op: inteiro
