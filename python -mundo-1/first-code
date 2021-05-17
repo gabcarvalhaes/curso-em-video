@@ -1,0 +1,16 @@
+# Aqui há declaração de tipo de variáveis, leitura de dados via teclado (input) e uma estrutura para o output. Também fui pesquisar sobre as estruturas condicionais e arrisquei
+colocar uma nesse algoritmo. 
+
+
+n1 = float(input('Digite a primeira nota: '))
+n2 = float(input('Digite a segunda nota: '))
+
+soma = n1 + n2
+media = soma / 2
+print('A média entre {} e {} é {}.'.format(n1, n2, media))
+
+if media < 7:
+    print('Reprovado')
+elif media > 7:
+    print('Aprovado')
+
