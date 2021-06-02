@@ -3,8 +3,11 @@ Cursos realizados na plataforma: https://www.cursoemvideo.com com o intuito de i
 
 #### ▶️ ALGORITMOS [40HORAS]: COMPLETED
 
+#### ▶️ PYTHON 3 - MUNDO 1 [40HORAS]: COMPLETED
 
-#### ▶️ PYTHON 3 - MUNDO 1 [40HORAS]: LOADING
+#### ▶️ PYTHON 3 - MUNDO 2 [40HORAS]: LOADING
+
+
 
 
 ##### | Projeto em andamento
