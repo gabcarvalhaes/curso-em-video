@@ -41,6 +41,10 @@ for controle in range(0, 10000):
     if nextfibonacci == n:
         true_position = position
         print('A posição do número {} na Sequência de Fibonacci é {} .'.format(n, true_position))
+        break
+    elif nextfibonacci > n:
+        print('Esse número não existe na Sequência de Fibonacci.')
+        break
 
 
 
