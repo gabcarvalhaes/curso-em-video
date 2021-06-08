@@ -4,4 +4,5 @@ Nessa segunda parte do curso, o professor Guanabara aprofunda nossos estudos em 
 
 Também inicia nossos estudos nas estruturas de repetição
 
-> Status: Em progresso
+> Status: Completed!
+
