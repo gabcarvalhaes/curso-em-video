@@ -5,9 +5,9 @@ Cursos realizados na plataforma: https://www.cursoemvideo.com com o intuito de i
 
 #### ▶️ PYTHON 3 - MUNDO 1 [40HORAS]: COMPLETED
 
-#### ▶️ PYTHON 3 - MUNDO 2 [40HORAS]: LOADING
+#### ▶️ PYTHON 3 - MUNDO 2 [40HORAS]: COMPLETED
 
 
 
 
-##### | Projeto em andamento
+##### | Projeto concluído :ballot_box_with_check:
