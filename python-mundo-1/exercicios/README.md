@@ -4,5 +4,5 @@ Durante o andamento do curso, o professor Guanabara propõe a resolução de mui
 
 Aqui, foram realizados 35 exercícios para o entendimento dos fundamentos da linguagem.
 
-> Status: COMPLETED
+> Status: Completed!
 
